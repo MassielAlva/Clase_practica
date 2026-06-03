@@ -83,7 +83,7 @@ void main() => runApp(const MyApp());
 
 ```dart
 class MyApp extends StatelessWidget {
-  const MyApp({super.key, required String title});
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -104,7 +104,7 @@ class MyApp extends StatelessWidget {
 
 ```dart
 class MiFormulario extends StatefulWidget {
-  const MiFormulario({super.key});
+  const MiFormulario({super.key, required String title});
 
   @override
   State<MiFormulario> createState() => _MiFormularioState();
