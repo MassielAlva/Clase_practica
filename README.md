@@ -83,7 +83,7 @@ void main() => runApp(const MyApp());
 
 ```dart
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key, required String title});
 
   @override
   Widget build(BuildContext context) {
